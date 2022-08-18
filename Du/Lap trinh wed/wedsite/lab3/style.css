@@ -1,0 +1,112 @@
+
+
+a {
+    font-weight: bold;
+    color: blueviolet;
+    /*text-decoration: none;*/
+}
+.main {
+    border: 5px solid darkred;
+}
+
+/*Banner*/
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+#banner {
+    border: 2px solid white;
+}
+
+/*Head*/
+.column_head {
+    color: white;
+    float: right;
+    padding: 15px;
+    width: 15%;
+}
+
+.row_head:after {
+    background-color: #212226;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#head {
+    background-color: #212226;
+    border: 2px solid white;
+}
+
+a_head:link {
+    color: white;
+    text-decoration: none;
+}
+
+/*Body*/
+.column_body_left {
+    float: left;
+    padding-left: 2px;
+    width: 15%;
+}
+
+.column_body_right {
+    float: left;
+    padding: 15px;
+    width: 80%;
+}
+
+.column_body_right_child {
+    float:left;
+    padding: 15px;
+    width: auto;
+}
+
+.row_body:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#body_left_first
+{
+    color: white;
+    background-color: #324203;
+    border-top: 5px solid white;
+    padding: 15px;
+}
+
+#body_left
+{
+    color: black;
+    background-color: #DBFF6A;
+    border-top: 3px solid white;
+    padding: 15px;
+}
+
+.text {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    border: 1px solid green;
+}
+
+/*Foot*/
+.foot {
+    background-color: #324203;
+    border: 1px solid white;
+    height: 21px;
+}
